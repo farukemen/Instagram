@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Instagram</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body onload="init()">
+    <section>
+      <div class="menu">
+        <img src="./img/instagram.jpg" />
+        <div class="row-bar">
+          <div class="col">
+            <i class="fa-solid fa-house"></i>
+            <p>Startseite</p>
+          </div>
+          <div class="col">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <p>Suche</p>
+          </div>
+          <div class="col">
+            <i class="fa-regular fa-compass"></i>
+            <p>Entdecken</p>
+          </div>
+          <div class="col">
+            <i class="fa-solid fa-film"></i>
+            <p>Reels</p>
+          </div>
+          <div class="col">
+            <i class="fa-regular fa-paper-plane"></i>
+            <p>Nachrichten</p>
+          </div>
+          <div class="col">
+            <i class="fa-regular fa-heart"></i>
+            <p>Benachrichtigungen</p>
+          </div>
+          <div class="col">
+            <i class="fa-regular fa-square-plus"></i>
+            <p>Erstellen</p>
+          </div>
+          <div class="col">
+            <img src="./img/profile.png" />
+            <p>Profil</p>
+          </div>
+          <div class="col">
+            <i class="fa-solid fa-bars"></i>
+            <p>Mehr</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="row-story">
+        <div class="col-story">
+          <img src="./img/ronaldo.jpg" />
+          <p>ronaldo</p>
+        </div>
+        <div class="col-story">
+          <img src="./img/bmw.jpg" />
+          <p>bmw</p>
+        </div>
+        <div class="col-story">
+          <img src="./img/fenerbahce2.jpg" />
+          <p>fenerbahce</p>
+        </div>
+        <div class="col-story">
+          <img src="./img/madrid.jpg" />
+          <p>realmadrid</p>
+        </div>
+        <div class="col-story">
+          <img src="./img/ladygaga.jpg" />
+          <p>ladygaga</p>
+        </div>
+        <div class="col-story">
+          <img src="./img/nasa.jpg" />
+          <p>nasa</p>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="sugesstion">
+        <div class="col-profil">
+          <img src="./img/profile.png" />
+          <p>omfrkem</p>
+          <p onclick="noFunction()">Wechseln</p>
+        </div>
+        <div class="col-user">
+          <p>Vorschläge für dich</p>
+          <p onclick="showAll(this)">Alle ansehen</p>
+        </div>
+        <div id="show-sugesstion" class="show-sugesstion">
+        </div>
+      </div>
+    </section>
+    <div id="contribution"></div>
+  </body>
+</html>
